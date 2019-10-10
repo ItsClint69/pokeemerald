@@ -559,9 +559,7 @@ static u8 ChooseMoveOrAction_Singles(void)
 
 static u8 ChooseMoveOrAction_Doubles(void)
 {
-    s32 i;
-    s32 j;
-    s32 scriptsToRun;
+    s32 i, j;
     u32 flags;
     s16 bestMovePointsForTarget[MAX_BATTLERS_COUNT];
     s8 mostViableTargetsArray[MAX_BATTLERS_COUNT];
@@ -1413,7 +1411,7 @@ static bool32 CompareTwoMoves(u32 bestMove, u32 goodMove)
 static void BattleAICmd_get_how_powerful_move_is(void)
 {
     s32 i, checkedMove, bestId, currId, hp;
-    s32 moveDmgs[4];
+    s32 moveDmgs[MAX_MON_MOVES];
 
     for (i = 0; sDiscouragedPowerfulMoveEffects[i] != 0xFFFF; i++)
     {
