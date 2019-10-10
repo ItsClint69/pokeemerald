@@ -4435,13 +4435,10 @@ static void atk49_moveend(void)
             gBattleScripting.atk49_state++;
             break;
         case ATK49_CHOICE_MOVE: // update choice band move
-            if (!(gHitMarker & HITMARKER_OBEYS) || !HOLD_EFFECT_CHOICE(holdEffectAtk)
-                || gChosenMove == MOVE_STRUGGLE || (*choicedMoveAtk != 0 && *choicedMoveAtk != 0xFFFF))
-                    goto LOOP;
-            if ((gBattleMoves[gChosenMove].effect == EFFECT_BATON_PASS
-                 || gBattleMoves[gChosenMove].effect == EFFECT_HEALING_WISH
-                 || gBattleMoves[gChosenMove].effect == EFFECT_HIT_ESCAPE)
-            && !(gMoveResultFlags & MOVE_RESULT_FAILED))
+            if (gHitMarker & HITMARKER_OBEYS
+             && holdEffectAtk == HOLD_EFFECT_CHOICE_BAND
+             && gChosenMove != MOVE_STRUGGLE 
+             && (*choicedMoveAtk == 0 || *choicedMoveAtk == 0xFFFF))
             {
                 if (gChosenMove == MOVE_BATON_PASS && !(gMoveResultFlags & MOVE_RESULT_FAILED))
                 {
