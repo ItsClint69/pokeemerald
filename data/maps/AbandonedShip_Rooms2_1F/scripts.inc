@@ -52,78 +52,78 @@ AbandonedShip_Rooms2_1F_EventScript_238186:: @ 8238186
 	end
 
 AbandonedShip_Rooms2_1F_Text_23819D: @ 823819D
-	.string "Dan: While searching for treasures,\n"
-	.string "we discovered a Trainer!$"
+	.string "DAN: While searching for treasures,\n"
+	.string "we discovered a TRAINER!$"
 
 AbandonedShip_Rooms2_1F_Text_2381DA: @ 82381DA
-	.string "Dan: We couldn't win even though\n"
+	.string "DAN: We couldn't win even though\n"
 	.string "we worked together…$"
 
 AbandonedShip_Rooms2_1F_Text_23820F: @ 823820F
-	.string "Dan: We can't find any treasures…\n"
+	.string "DAN: We can't find any treasures…\n"
 	.string "I wonder if someone got them already?$"
 
 AbandonedShip_Rooms2_1F_Text_238257: @ 8238257
-	.string "Dan: You don't even have two Pokémon.\n"
+	.string "DAN: You don't even have two POKéMON.\n"
 	.string "You can't expect to beat us like that.$"
 
 AbandonedShip_Rooms2_1F_Text_2382A4: @ 82382A4
-	.string "Kira: Oh?\n"
+	.string "KIRA: Oh?\n"
 	.string "We were searching for treasures.\l"
-	.string "But we discovered a Trainer instead!$"
+	.string "But we discovered a TRAINER instead!$"
 
 AbandonedShip_Rooms2_1F_Text_2382F4: @ 82382F4
-	.string "Kira: Ooh, so strong!$"
+	.string "KIRA: Ooh, so strong!$"
 
 AbandonedShip_Rooms2_1F_Text_23830A: @ 823830A
-	.string "Kira: Where could the treasures be?\p"
+	.string "KIRA: Where could the treasures be?\p"
 	.string "I've already decided what I'm buying\n"
 	.string "when we find the treasures!$"
 
 AbandonedShip_Rooms2_1F_Text_23836F: @ 823836F
-	.string "Kira: Oh, you don't have two Pokémon?\n"
+	.string "KIRA: Oh, you don't have two POKéMON?\n"
 	.string "We'll have to battle some other time!$"
 
 AbandonedShip_Rooms2_1F_Text_2383BB: @ 82383BB
-	.string "Kira: Oh, you make me so angry!\n"
+	.string "KIRA: Oh, you make me so angry!\n"
 	.string "I'm going to register you for that!$"
 
 AbandonedShip_Rooms2_1F_Text_2383FF: @ 82383FF
-	.string "Dan: We've been searching for\n"
+	.string "DAN: We've been searching for\n"
 	.string "treasures all this time.\p"
-	.string "Our Pokémon have grown stronger, too.\n"
+	.string "Our POKéMON have grown stronger, too.\n"
 	.string "Let us show you, okay?$"
 
 AbandonedShip_Rooms2_1F_Text_238473: @ 8238473
-	.string "Dan: You're strong, as usual!$"
+	.string "DAN: You're strong, as usual!$"
 
 AbandonedShip_Rooms2_1F_Text_238491: @ 8238491
-	.string "Dan: We can't find any treasures,\n"
-	.string "we lose at Pokémon…\p"
+	.string "DAN: We can't find any treasures,\n"
+	.string "we lose at POKéMON…\p"
 	.string "I want to go home… But if I say that,\n"
 	.string "she gets all angry with me…$"
 
 AbandonedShip_Rooms2_1F_Text_238509: @ 8238509
-	.string "Dan: You don't even have two Pokémon.\n"
+	.string "DAN: You don't even have two POKéMON.\n"
 	.string "You can't expect to beat us like that.$"
 
 AbandonedShip_Rooms2_1F_Text_238556: @ 8238556
-	.string "Kira: Oh? We meet again!\p"
+	.string "KIRA: Oh? We meet again!\p"
 	.string "Just like us, you still haven't given up\n"
 	.string "searching for treasures, have you?\p"
 	.string "Want to make it so the loser has\n"
 	.string "to give up searching?$"
 
 AbandonedShip_Rooms2_1F_Text_2385F2: @ 82385F2
-	.string "Kira: Oh, we lost again…$"
+	.string "KIRA: Oh, we lost again…$"
 
 AbandonedShip_Rooms2_1F_Text_23860B: @ 823860B
-	.string "Kira: We're not leaving until we raise\n"
-	.string "our Pokémon some more and we find\l"
+	.string "KIRA: We're not leaving until we raise\n"
+	.string "our POKéMON some more and we find\l"
 	.string "the treasures here!$"
 
 AbandonedShip_Rooms2_1F_Text_238668: @ 8238668
-	.string "Kira: Oh, you don't have two Pokémon?\n"
+	.string "KIRA: Oh, you don't have two POKéMON?\n"
 	.string "We'll have to battle some other time!$"
 
 AbandonedShip_Rooms2_1F_Text_2386B4: @ 82386B4
@@ -140,7 +140,7 @@ AbandonedShip_Rooms2_1F_Text_238708: @ 8238708
 
 AbandonedShip_Rooms2_1F_Text_23873F: @ 823873F
 	.string "Strength and compassion…\n"
-	.string "Those are a Trainer's treasures!$"
+	.string "Those are a TRAINER's treasures!$"
 
 AbandonedShip_Rooms2_1F_Text_238779: @ 8238779
 	.string "Ah, there is something about you\n"

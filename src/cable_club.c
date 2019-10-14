@@ -30,8 +30,6 @@
 #include "trainer_card.h"
 #include "party_menu.h"
 #include "window.h"
-#include "constants/battle_frontier.h"
-#include "constants/cable_club.h"
 #include "constants/songs.h"
 
 static const struct WindowTemplate gUnknown_08550594 = {
@@ -125,9 +123,9 @@ static u32 sub_80B2478(u8 lower, u8 upper)
         return 1;
     case EXCHANGE_IN_PROGRESS:
         return 3;
-    case EXCHANGE_PLAYER_NOT_READY:
+    case EXCHANGE_STAT_4:
         return 7;
-    case EXCHANGE_PARTNER_NOT_READY:
+    case EXCHANGE_STAT_5:
         return 9;
     case EXCHANGE_STAT_6:
         ConvertIntToDecimalStringN(gStringVar1, GetLinkPlayerCount_2(), STR_CONV_MODE_LEFT_ALIGN, 1);
@@ -459,7 +457,7 @@ static void task_map_chg_seq_0807EC34(u16 *a0, u32 taskId)
 
     if (*a0 == 1)
     {
-        if (gLinkType == LINKTYPE_BATTLE_TOWER_50 || gLinkType == LINKTYPE_BATTLE_TOWER_OPEN)
+        if (gLinkType == 0x2266 || gLinkType == 0x2277)
         {
             if (sub_80B2AF4(trainerCards[0].monSpecies, trainerCards[1].monSpecies))
             {
@@ -552,42 +550,45 @@ static bool8 sub_80B2D6C(u8 taskId)
     return FALSE;
 }
 
-void TryBattleLinkup(u8 arg0)
+void sub_80B2DA4(u8 arg0)
 {
     u8 r3 = 2;
     u8 r2 = 2;
 
     switch (gSpecialVar_0x8004)
     {
-    case USING_SINGLE_BATTLE:
+    case 1:
         r3 = 2;
-        gLinkType = LINKTYPE_SINGLE_BATTLE;
+        gLinkType = 0x2233;
         break;
-    case USING_DOUBLE_BATTLE:
+    case 2:
         r3 = 2;
-        gLinkType = LINKTYPE_DOUBLE_BATTLE;
+        gLinkType = 0x2244;
         break;
-    case USING_MULTI_BATTLE:
+    case 5:
         r3 = 4;
         r2 = 4;
-        gLinkType = LINKTYPE_MULTI_BATTLE;
+        gLinkType = 0x2255;
         break;
-    case USING_BATTLE_TOWER:
+    case 9:
         r3 = 2;
-        if (gSaveBlock2Ptr->frontier.lvlMode == FRONTIER_LVL_50)
-            gLinkType = LINKTYPE_BATTLE_TOWER_50;
+        if (gSaveBlock2Ptr->frontier.lvlMode == 0)
+        {
+            gLinkType = 0x2266;
+        }
         else
-            gLinkType = LINKTYPE_BATTLE_TOWER_OPEN;
-
+        {
+            gLinkType = 0x2277;
+        }
         break;
     }
 
     sub_80B236C(r3, r2);
 }
 
-void TryTradeLinkup(void)
+void sub_80B2E4C(void)
 {
-    gLinkType = LINKTYPE_0x1133;
+    gLinkType = 0x1133;
     gBattleTypeFlags = 0;
     sub_80B236C(2, 2);
 }
@@ -595,7 +596,7 @@ void TryTradeLinkup(void)
 void sub_80B2E74(void)
 {
     gSpecialVar_Result = 0;
-    gLinkType = LINKTYPE_0x3311;
+    gLinkType = 0x3311;
     gBattleTypeFlags = 0;
     sub_80B236C(2, 4);
 }
@@ -680,21 +681,21 @@ static void sub_80B2EE4(u8 taskId)
 
 void sub_80B2FD8(void)
 {
-    gLinkType = LINKTYPE_0x4411;
+    gLinkType = 0x4411;
     gBattleTypeFlags = 0;
     sub_80B236C(2, 4);
 }
 
 void sub_80B3000(void)
 {
-    gLinkType = LINKTYPE_0x6601;
+    gLinkType = 0x6601;
     gBattleTypeFlags = 0;
     sub_80B236C(4, 4);
 }
 
 void sub_80B3028(void)
 {
-    gLinkType = LINKTYPE_0x6602;
+    gLinkType = 0x6602;
     gBattleTypeFlags = 0;
     sub_80B236C(2, 4);
 }
@@ -706,30 +707,30 @@ u8 sub_80B3050(void)
 
     switch (gSpecialVar_0x8004)
     {
-    case USING_SINGLE_BATTLE:
-        gLinkType = LINKTYPE_SINGLE_BATTLE;
+    case 1:
+        gLinkType = 0x2233;
         break;
-    case USING_DOUBLE_BATTLE:
-        gLinkType = LINKTYPE_DOUBLE_BATTLE;
+    case 2:
+        gLinkType = 0x2244;
         break;
-    case USING_MULTI_BATTLE:
-        gLinkType = LINKTYPE_MULTI_BATTLE;
+    case 5:
+        gLinkType = 0x2255;
         break;
-    case USING_BATTLE_TOWER:
-        if (gSaveBlock2Ptr->frontier.lvlMode == FRONTIER_LVL_50)
+    case 9:
+        if (gSaveBlock2Ptr->frontier.lvlMode == 0)
         {
-            gLinkType = LINKTYPE_BATTLE_TOWER_50;
+            gLinkType = 0x2266;
         }
         else
         {
-            gLinkType = LINKTYPE_BATTLE_TOWER_OPEN;
+            gLinkType = 0x2277;
         }
         break;
-    case USING_TRADE_CENTER:
-        gLinkType = LINKTYPE_0x1111;
+    case 3:
+        gLinkType = 0x1111;
         break;
-    case USING_RECORD_CORNER:
-        gLinkType = LINKTYPE_0x3322;
+    case 4:
+        gLinkType = 0x3322;
         break;
     }
 
@@ -789,21 +790,21 @@ void sub_80B3254(void)
     SaveGame();
 }
 
-static void SetLinkBattleTypeFlags(int linkService)
+static void sub_80B3260(int a0)
 {
-    switch (linkService)
+    switch (a0)
     {
-        case USING_SINGLE_BATTLE:
+        case 1:
             gBattleTypeFlags = BATTLE_TYPE_LINK | BATTLE_TYPE_TRAINER;
             break;
-        case USING_DOUBLE_BATTLE:
+        case 2:
             gBattleTypeFlags = BATTLE_TYPE_DOUBLE | BATTLE_TYPE_LINK | BATTLE_TYPE_TRAINER;
             break;
-        case USING_MULTI_BATTLE:
+        case 5:
             ReducePlayerPartyToSelectedMons();
             gBattleTypeFlags = BATTLE_TYPE_DOUBLE | BATTLE_TYPE_LINK | BATTLE_TYPE_TRAINER | BATTLE_TYPE_MULTI;
             break;
-        case USING_BATTLE_TOWER:
+        case 9:
             gBattleTypeFlags = BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_DOUBLE | BATTLE_TYPE_LINK | BATTLE_TYPE_TRAINER | BATTLE_TYPE_MULTI;
             break;
     }
@@ -817,7 +818,7 @@ static void sub_80B32B4(u8 taskId)
     {
     case 0:
         FadeScreen(1, 0);
-        gLinkType = LINKTYPE_BATTLE;
+        gLinkType = 0x2211;
         ClearLinkCallback_2();
         task->data[0]++;
         break;
@@ -844,7 +845,7 @@ static void sub_80B32B4(u8 taskId)
         else
             PlayMapChosenOrBattleBGM(MUS_BATTLE20);
 
-        SetLinkBattleTypeFlags(gSpecialVar_0x8004);
+        sub_80B3260(gSpecialVar_0x8004);
         CleanupOverworldWindowsAndTilemaps();
         gTrainerBattleOpponent_A = 0x800;
         SetMainCallback2(CB2_InitBattle);
@@ -863,7 +864,7 @@ static void sub_80B33BC(u8 taskId)
     {
     case 0:
         FadeScreen(1, 0);
-        gLinkType = LINKTYPE_BATTLE;
+        gLinkType = 0x2211;
         ClearLinkCallback_2();
         data[0] = 1;
         break;
@@ -909,8 +910,8 @@ static void sub_80B33BC(u8 taskId)
         else
             PlayMapChosenOrBattleBGM(MUS_BATTLE20);
 
-        gLinkPlayers[0].linkType = LINKTYPE_BATTLE;
-        SetLinkBattleTypeFlags(gSpecialVar_0x8004);
+        gLinkPlayers[0].linkType = 0x2211;
+        sub_80B3260(gSpecialVar_0x8004);
         CleanupOverworldWindowsAndTilemaps();
         gTrainerBattleOpponent_A = 0x800;
         SetMainCallback2(CB2_InitBattle);
@@ -972,7 +973,7 @@ void sub_80B360C(void)
     SavePlayerBag();
     sub_813BF10();
 
-    if (gSpecialVar_0x8004 == USING_SINGLE_BATTLE || gSpecialVar_0x8004 == USING_DOUBLE_BATTLE)
+    if (gSpecialVar_0x8004 == 1 || gSpecialVar_0x8004 == 2)
     {
         UpdatePlayerLinkBattleRecords(gLocalLinkPlayerId ^ 1);
         if (gWirelessCommType)
@@ -1003,10 +1004,7 @@ void sub_80B360C(void)
 
 void CleanupLinkRoomState(void)
 {
-    if (gSpecialVar_0x8004 == USING_SINGLE_BATTLE 
-     || gSpecialVar_0x8004 == USING_DOUBLE_BATTLE 
-     || gSpecialVar_0x8004 == USING_MULTI_BATTLE 
-     || gSpecialVar_0x8004 == USING_BATTLE_TOWER)
+    if (gSpecialVar_0x8004 == 1 || gSpecialVar_0x8004 == 2 || gSpecialVar_0x8004 == 5 || gSpecialVar_0x8004 == 9)
     {
         LoadPlayerParty();
         SavePlayerBag();
@@ -1086,8 +1084,8 @@ static void sub_80B37FC(u8 taskId)
             task->data[0]++;
         break;
     case 2:
-        gSelectedTradeMonPositions[TRADE_PLAYER] = 0;
-        gSelectedTradeMonPositions[TRADE_PARTNER] = 0;
+        gUnknown_02032298[0] = 0;
+        gUnknown_02032298[1] = 0;
         m4aMPlayAllStop();
         sub_800AC34();
         task->data[0]++;
@@ -1095,7 +1093,7 @@ static void sub_80B37FC(u8 taskId)
     case 3:
         if (!gReceivedRemoteLinkPlayers)
         {
-            SetMainCallback2(CB2_StartCreateTradeMenu);
+            SetMainCallback2(sub_80773AC);
             DestroyTask(taskId);
         }
         break;
@@ -1111,7 +1109,7 @@ static void sub_80B3894(u8 taskId)
     case 0:
         ScriptContext2_Enable();
         FadeScreen(1, 0);
-        ClearLinkRfuCallback();
+        Rfu_set_zero();
         data[0]++;
         break;
     case 1:
@@ -1119,8 +1117,8 @@ static void sub_80B3894(u8 taskId)
             data[0]++;
         break;
     case 2:
-        gSelectedTradeMonPositions[TRADE_PLAYER] = 0;
-        gSelectedTradeMonPositions[TRADE_PARTNER] = 0;
+        gUnknown_02032298[0] = 0;
+        gUnknown_02032298[1] = 0;
         m4aMPlayAllStop();
         sub_800ADF8();
         data[0]++;
@@ -1161,7 +1159,7 @@ void nullsub_37(void)
 // Note: VAR_0x8005 is set to the ID of the player spot.
 void ColosseumPlayerSpotTriggered(void)
 {
-    gLinkType = LINKTYPE_BATTLE;
+    gLinkType = 0x2211;
 
     if (gWirelessCommType != 0)
     {
@@ -1180,7 +1178,7 @@ static void sub_80B39A4(void)
     ScriptContext1_Stop();
 }
 
-void Script_ShowLinkTrainerCard(void)
+void sp02A_crash_sound(void)
 {
     ShowTrainerCardInLink(gSpecialVar_0x8006, CB2_ReturnToFieldContinueScriptPlayMapMusic);
 }
@@ -1302,6 +1300,6 @@ void sub_80B3BC4(void)
 {
     if (gWirelessCommType == 0)
     {
-        gLinkType = LINKTYPE_0x2288;
+        gLinkType = 0x2288;
     }
 }

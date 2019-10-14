@@ -1,62 +1,62 @@
 gTrickHouse_Mechadoll_Oddish:: @ 27ECBC
-	.string "Oddish$"
+	.string "ODDISH$"
 
 gTrickHouse_Mechadoll_Poochyena:: @ 27ECC3
-	.string "Poochyena$"
+	.string "POOCHYENA$"
 
 gTrickHouse_Mechadoll_Taillow:: @ 27ECCD
-	.string "Taillow$"
+	.string "TAILLOW$"
 
 gTrickHouse_Mechadoll_Azurill:: @ 27ECD5
-	.string "Azurill$"
+	.string "AZURILL$"
 
 gTrickHouse_Mechadoll_Lotad:: @ 27ECDD
-	.string "Lotad$"
+	.string "LOTAD$"
 
 gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
-	.string "Wingull$"
+	.string "WINGULL$"
 
 gTrickHouse_Mechadoll_Dustox:: @ 27ECEB
-	.string "Dustox$"
+	.string "DUSTOX$"
 
 gTrickHouse_Mechadoll_Zubat:: @ 27ECF2
-	.string "Zubat$"
+	.string "ZUBAT$"
 
 gTrickHouse_Mechadoll_Nincada:: @ 27ECF8
-	.string "Nincada$"
+	.string "NINCADA$"
 
 gTrickHouse_Mechadoll_Ralts:: @ 27ED00
-	.string "Ralts$"
+	.string "RALTS$"
 
 gTrickHouse_Mechadoll_Zigzagoon:: @ 27ED06
-	.string "Zigzagoon$"
+	.string "ZIGZAGOON$"
 
 gTrickHouse_Mechadoll_Slakoth:: @ 27ED10
-	.string "Slakoth$"
+	.string "SLAKOTH$"
 
 gTrickHouse_Mechadoll_Poochyena2:: @ 27ED18
-	.string "Poochyena$"
+	.string "POOCHYENA$"
 
 gTrickHouse_Mechadoll_Shroomish:: @ 27ED22
-	.string "Shroomish$"
+	.string "SHROOMISH$"
 
 gTrickHouse_Mechadoll_Zigzagoon2:: @ 27ED2C
-	.string "Zigzagoon$"
+	.string "ZIGZAGOON$"
 
 gTrickHouse_Mechadoll_Poochyena3:: @ 27ED36
-	.string "Poochyena$"
+	.string "POOCHYENA$"
 
 gTrickHouse_Mechadoll_Zubat2:: @ 27ED40
-	.string "Zubat$"
+	.string "ZUBAT$"
 
 gTrickHouse_Mechadoll_Carvanha:: @ 27ED46
-	.string "Carvanha$"
+	.string "CARVANHA$"
 
 gTrickHouse_Mechadoll_BurnHeal:: @ 27ED4F
-	.string "Burn Heal$"
+	.string "BURN HEAL$"
 
 gTrickHouse_Mechadoll_HarborMail:: @ 27ED59
-	.string "Harbor Mail$"
+	.string "HARBOR MAIL$"
 
 gTrickHouse_Mechadoll_SamePrice:: @ 27ED65
 	.string "Same price$"

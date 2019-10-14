@@ -5,7 +5,7 @@ PacifidlogTown_House3_EventScript_203C11:: @ 8203C11
 	lock
 	faceplayer
 	goto_if_set FLAG_PACIFIDLOG_NPC_TRADE_COMPLETED, PacifidlogTown_House3_EventScript_203CAB
-	setvar VAR_0x8008, INGAME_TRADE_HORSEA
+	setvar VAR_0x8008, 2
 	copyvar VAR_0x8004, VAR_0x8008
 	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
 	copyvar VAR_0x8009, VAR_RESULT
@@ -81,12 +81,12 @@ PacifidlogTown_House3_Text_203E12: @ 8203E12
 PacifidlogTown_House3_Text_203E7F: @ 8203E7F
 	.string "I know I could go looking for one\n"
 	.string "on my own, but…\p"
-	.string "But I really wanted to get a Bagon\n"
-	.string "that another Trainer caught…$"
+	.string "But I really wanted to get a BAGON\n"
+	.string "that another TRAINER caught…$"
 
 PacifidlogTown_House3_Text_203EF1: @ 8203EF1
-	.string "Is that a Pokédex?\p"
+	.string "Is that a POKéDEX?\p"
 	.string "Did you get to meet a lot of different\n"
-	.string "Pokémon?\p"
+	.string "POKéMON?\p"
 	.string "I wish I was like you.$"
 

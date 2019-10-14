@@ -1,6 +1,6 @@
 LavaridgeTown_PokemonCenter_1F_MapScripts:: @ 81FFAFA
 	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, LavaridgeTown_PokemonCenter_1F_MapScript1_277C30
 	.byte 0
 
 LavaridgeTown_PokemonCenter_1F_OnTransition: @ 81FFB05
@@ -29,20 +29,20 @@ LavaridgeTown_PokemonCenter_1F_EventScript_1FFB2E:: @ 81FFB2E
 	end
 
 LavaridgeTown_PokemonCenter_1F_Text_1FFB37: @ 81FFB37
-	.string "I think Pokémon get closer to their\n"
-	.string "Trainers if they spend time together.\p"
+	.string "I think POKéMON get closer to their\n"
+	.string "TRAINERS if they spend time together.\p"
 	.string "The longer the better.\n"
 	.string "That's what I think.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_1FFBAD: @ 81FFBAD
 	.string "It's sort of magical how just sitting\n"
 	.string "in a hot-spring pool can invigorate.\p"
-	.string "I wish I could let my Pokémon\n"
+	.string "I wish I could let my POKéMON\n"
 	.string "soak, too.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_1FFC21: @ 81FFC21
 	.string "Hohoho! Hey, kid, you can reach\n"
 	.string "the hot springs from here.\p"
-	.string "If Pokémon are getting rest, so too\n"
-	.string "should their Trainers.$"
+	.string "If POKéMON are getting rest, so too\n"
+	.string "should their TRAINERS.$"
 

@@ -1,6 +1,6 @@
 LilycoveCity_PokemonCenter_1F_MapScripts:: @ 821C5B2
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, LilycoveCity_PokemonCenter_1F_MapScript1_277C30
 	.byte 0
 
 LilycoveCity_PokemonCenter_1F_OnTransition: @ 821C5BD
@@ -50,18 +50,18 @@ LilycoveCity_PokemonCenter_1F_EventScript_21C614:: @ 821C614
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_21C61E: @ 821C61E
-	.string "I wonder how many kinds of Pokémon\n"
+	.string "I wonder how many kinds of POKéMON\n"
 	.string "there are in the world.\p"
 	.string "It'd be great to cross seas and\n"
-	.string "trade Pokémon with people far away.$"
+	.string "trade POKéMON with people far away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_21C69D: @ 821C69D
 	.string "I've been hearing about some rotten\n"
-	.string "scoundrels who steal Pokémon and rip\l"
-	.string "off Meteorites.$"
+	.string "scoundrels who steal POKéMON and rip\l"
+	.string "off METEORITES.$"
 
 LilycoveCity_PokemonCenter_1F_Text_21C6F6: @ 821C6F6
 	.string "Those rotten scoundrels who steal\n"
-	.string "Pokémon and rip off Meteorites…\p"
+	.string "POKéMON and rip off METEORITES…\p"
 	.string "I haven't seen them around recently.$"
 

@@ -3737,11 +3737,12 @@ bool32 IsTrainerRegistered(void)
 }
 
 // Always returns FALSE
-bool32 ShouldDistributeEonTicket(void)
+bool32 sub_813B514(void)
 {
-    if (!VarGet(VAR_DISTRIBUTE_EON_TICKET))
+    if (!VarGet(VAR_ALWAYS_ZERO_0x403F))
+    {
         return FALSE;
-    
+    }
     return TRUE;
 }
 

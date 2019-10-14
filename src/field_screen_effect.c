@@ -638,7 +638,7 @@ static void Task_ReturnToWorldFromLinkRoom(u8 taskId)
     }
 }
 
-void ReturnFromLinkRoom(void)
+void sub_80AF9F8(void)
 {
     CreateTask(Task_ReturnToWorldFromLinkRoom, 10);
 }

@@ -3,37 +3,37 @@ gUnknown_0827EA0C:: @ 827EA0C
 	.string "{STR_VAR_2}'s {STR_VAR_3}$"
 
 gUnknown_0827EA17:: @ 827EA17
-	.string "Contest$"
+	.string "CONTEST$"
 
 gContestRankNormal::
-	.string "Normal Rank$"
+	.string "NORMAL RANK$"
 
 gContestRankSuper::
-	.string "Super Rank$"
+	.string "SUPER RANK$"
 
 gContestRankHyper::
-	.string "Hyper Rank$"
+	.string "HYPER RANK$"
 
 gContestRankMaster::
-	.string "Master Rank$"
+	.string "MASTER RANK$"
 
 gContestLink::
-	.string "Link$"
+	.string "LINK$"
 
 gContestCoolness::
-	.string "Coolness$"
+	.string "COOLNESS$"
 
 gContestBeauty::
-	.string "Beauty$"
+	.string "BEAUTY$"
 
 gContestCuteness::
-	.string "Cuteness$"
+	.string "CUTENESS$"
 
 gContestSmartness::
-	.string "Smartness$"
+	.string "SMARTNESS$"
 
 gContestToughness::
-	.string "Toughness$"
+	.string "TOUGHNESS$"
 
 gContestPaintingCool1::
 	.string "Nonstop supercool--\n"
@@ -41,7 +41,7 @@ gContestPaintingCool1::
 
 gContestPaintingCool2::
 	.string "Hey, there!\n"
-	.string "The good-looking Pokémon {STR_VAR_1}$"
+	.string "The good-looking POKéMON {STR_VAR_1}$"
 
 gContestPaintingCool3::
 	.string "The marvelous, wonderful, and\n"
@@ -56,7 +56,7 @@ gContestPaintingBeauty2::
 	.string "glittering smile$"
 
 gContestPaintingBeauty3::
-	.string "Pokémon Center's super idol--\n"
+	.string "POKéMON CENTER's super idol--\n"
 	.string "the incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::
@@ -68,15 +68,15 @@ gContestPaintingCute2::
 
 gContestPaintingCute3::
 	.string "Give us a wink!\n"
-	.string "The cutie Pokémon {STR_VAR_1}$"
+	.string "The cutie POKéMON {STR_VAR_1}$"
 
 gContestPaintingSmart1::
 	.string "The smartness maestro--\n"
-	.string "the wise Pokémon {STR_VAR_1}$"
+	.string "the wise POKéMON {STR_VAR_1}$"
 
 gContestPaintingSmart2::
 	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all Pokémon$"
+	.string "above all POKéMON$"
 
 gContestPaintingSmart3::
 	.string "The excellent {STR_VAR_1}'s\n"
@@ -92,4 +92,4 @@ gContestPaintingTough2::
 
 gContestPaintingTough3::
 	.string "The mighty tough\n"
-	.string "hyper Pokémon {STR_VAR_1}$"
+	.string "hyper POKéMON {STR_VAR_1}$"

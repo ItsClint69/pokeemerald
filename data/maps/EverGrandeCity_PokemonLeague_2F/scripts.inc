@@ -1,20 +1,19 @@
 EverGrandeCity_PokemonLeague_2F_MapScripts:: @ 8229D07
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, CableClub_OnFrame
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, CableClub_OnWarp
-	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, CableClub_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_PokemonLeague_2F_MapScript2_276C3B
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, EverGrandeCity_PokemonLeague_2F_MapScript2_276B6C
+	map_script MAP_SCRIPT_ON_LOAD, EverGrandeCity_PokemonLeague_2F_MapScript1_276BBE
+	map_script MAP_SCRIPT_ON_TRANSITION, PokemonCenter_2F_OnTransition
 	.byte 0
 
-@ The below 3 are unused and leftover from RS
-EverGrandeCity_PokemonLeague_2F_EventScript_Colosseum:: @ 8229D1C
-	call CableClub_EventScript_Colosseum
+EverGrandeCity_PokemonLeague_2F_EventScript_229D1C:: @ 8229D1C
+	call OldaleTown_PokemonCenter_2F_EventScript_276EB7
 	end
 
-EverGrandeCity_PokemonLeague_2F_EventScript_TradeCenter:: @ 8229D22
-	call CableClub_EventScript_TradeCenter
+EverGrandeCity_PokemonLeague_2F_EventScript_229D22:: @ 8229D22
+	call OldaleTown_PokemonCenter_2F_EventScript_2770B2
 	end
 
-EverGrandeCity_PokemonLeague_2F_EventScript_RecordCorner:: @ 8229D28
-	call CableClub_EventScript_RecordCorner
+EverGrandeCity_PokemonLeague_2F_EventScript_229D28:: @ 8229D28
+	call OldaleTown_PokemonCenter_2F_EventScript_2771DB
 	end
 

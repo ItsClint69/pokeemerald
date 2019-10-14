@@ -598,7 +598,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_2A8A56:: @ 82A8A56
     end
 
 LilycoveCity_PokemonCenter_1F_Text_2A8A69: @ 82A8A69
-    .string "I'm the Favor Lady…$"
+    .string "I'm the FAVOR LADY…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8A7D: @ 82A8A7D
     .string "I've recently developed an obsession\n"
@@ -672,10 +672,10 @@ LilycoveCity_PokemonCenter_1F_Text_2A8DBD: @ 82A8DBD
     .string "Oh, you can't have it if you don't have\n"
     .string "the space for it.\p"
     .string "Please come see me when you get\n"
-    .string "your Bag organized…$"
+    .string "your BAG organized…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E2B: @ 82A8E2B
-    .string "I'm the Quiz Lady!\n"
+    .string "I'm the QUIZ LADY!\n"
     .string "I love quizzes!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E4E: @ 82A8E4E
@@ -725,7 +725,7 @@ LilycoveCity_PokemonCenter_1F_Text_2A9056: @ 82A9056
     .string "one {STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A906A: @ 82A906A
-    .string "Oh? Your Bag is filled up!\n"
+    .string "Oh? Your BAG is filled up!\n"
     .string "Come see me when you have room.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90A5: @ 82A90A5
@@ -780,8 +780,8 @@ LilycoveCity_PokemonCenter_1F_Text_2A9336: @ 82A9336
     .string "your quiz challenge right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93A7: @ 82A93A7
-    .string "I'm the Contest Lady!\n"
-    .string "I sure do love Contests!$"
+    .string "I'm the CONTEST LADY!\n"
+    .string "I sure do love CONTESTS!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93D6: @ 82A93D6
     .string "Thanks for your {POKEBLOCK} before!$"
@@ -816,7 +816,7 @@ LilycoveCity_PokemonCenter_1F_Text_2A9556: @ 82A9556
 LilycoveCity_PokemonCenter_1F_Text_2A9571: @ 82A9571
     .string "Yay!\n"
     .string "Thank you!\p"
-    .string "I'll feed my Pokémon your {POKEBLOCK}\n"
+    .string "I'll feed my POKéMON your {POKEBLOCK}\n"
     .string "right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A95AD: @ 82A95AD
@@ -836,7 +836,7 @@ LilycoveCity_PokemonCenter_1F_Text_2A9605: @ 82A9605
 LilycoveCity_PokemonCenter_1F_Text_2A9669: @ 82A9669
     .string "Hmm…\p"
     .string "I think we may be ready to enter\n"
-    .string "some Contests.\p"
+    .string "some CONTESTS.\p"
     .string "If you see us in one somewhere,\n"
     .string "I hope you'll cheer for us.$"
 

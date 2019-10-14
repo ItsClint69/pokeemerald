@@ -173,19 +173,19 @@ Route121_EventScript_1F6043:: @ 81F6043
 
 Route121_Text_1F605A: @ 81F605A
 	.string "Okay!\n"
-	.string "We're to move out to Mt. Pyre!$"
+	.string "We're to move out to MT. PYRE!$"
 
 Route121_Text_1F607F: @ 81F607F
-	.string "Ahead looms Mt. Pyre…\p"
+	.string "Ahead looms MT. PYRE…\p"
 	.string "It is a natural monument to the spirits \n"
-	.string "of departed Pokémon…$"
+	.string "of departed POKéMON…$"
 
 Route121_Text_1F60D3: @ 81F60D3
-	.string "Mt. Pyre Pier\p"
+	.string "MT. PYRE PIER\p"
 	.string "…The sign is old and worn out.\n"
 	.string "The words are barely legible…$"
 
 Route121_Text_1F611E: @ 81F611E
-	.string "“Filled with rare Pokémon!”\n"
-	.string "Safari Zone$"
+	.string "“Filled with rare POKéMON!”\n"
+	.string "SAFARI ZONE$"
 

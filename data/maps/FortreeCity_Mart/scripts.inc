@@ -40,10 +40,10 @@ FortreeCity_Mart_EventScript_2176AA:: @ 82176AA
 	end
 
 FortreeCity_Mart_Text_2176B3: @ 82176B3
-	.string "Super Repel lasts a long time,\n"
+	.string "SUPER REPEL lasts a long time,\n"
 	.string "and it gets the job done.\p"
 	.string "It's much better than an ordinary\n"
-	.string "Repel.$"
+	.string "REPEL.$"
 
 FortreeCity_Mart_Text_217715: @ 8217715
 	.string "I always stock up on more items than\n"
@@ -52,6 +52,6 @@ FortreeCity_Mart_Text_217715: @ 8217715
 	.string "Better to be safe than sorry!$"
 
 FortreeCity_Mart_Text_21778E: @ 821778E
-	.string "A Rare Candy makes a Pokémon grow\n"
+	.string "A RARE CANDY makes a POKéMON grow\n"
 	.string "immediately by one level.$"
 

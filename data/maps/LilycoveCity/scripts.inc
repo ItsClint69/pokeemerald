@@ -421,149 +421,149 @@ LilycoveCity_EventScript_1E3058:: @ 81E3058
 	return
 
 LilycoveCity_Text_1E3061: @ 81E3061
-	.string "May: Oh, hey?\n"
+	.string "MAY: Oh, hey?\n"
 	.string "{PLAYER}{KUN}, are you shopping, too?\p"
-	.string "I bought a whole bunch of Dolls and\n"
-	.string "Posters.\p"
+	.string "I bought a whole bunch of DOLLS and\n"
+	.string "POSTERS.\p"
 	.string "Of course, I've also caught a lot of\n"
-	.string "Pokémon, and I'm raising them\l"
+	.string "POKéMON, and I'm raising them\l"
 	.string "properly, too.\p"
 	.string "Actually, I'm more worried if you're\n"
-	.string "raising Pokémon properly, {PLAYER}{KUN}.\p"
+	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
 	.string "I'll battle with you, so you can show\n"
-	.string "me your Pokémon, {PLAYER}{KUN}.$"
+	.string "me your POKéMON, {PLAYER}{KUN}.$"
 
 LilycoveCity_Text_1E318D: @ 81E318D
-	.string "May: Oh, why? {PLAYER}{KUN}, haven't you\n"
-	.string "been raising your Pokémon?\p"
+	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
+	.string "been raising your POKéMON?\p"
 	.string "That's not a very good showing as a\n"
-	.string "Trainer…$"
+	.string "TRAINER…$"
 
 LilycoveCity_Text_1E31F5: @ 81E31F5
-	.string "May: Come on, battle with me, so I can\n"
-	.string "check out your Pokémon!$"
+	.string "MAY: Come on, battle with me, so I can\n"
+	.string "check out your POKéMON!$"
 
 LilycoveCity_Text_1E3234: @ 81E3234
-	.string "May: The Pokémon I raised won't be\n"
-	.string "beaten by your Pokémon, {PLAYER}{KUN}!$"
+	.string "MAY: The POKéMON I raised won't be\n"
+	.string "beaten by your POKéMON, {PLAYER}{KUN}!$"
 
 LilycoveCity_Text_1E3275: @ 81E3275
 	.string "… … … … … … … …\p"
 	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on Route 103.\p"
+	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
 	.string "That battle helped you become this\n"
 	.string "strong, {PLAYER}{KUN}, didn't it?$"
 
 LilycoveCity_Text_1E32FB: @ 81E32FB
-	.string "May: I'm thinking of going back to\n"
-	.string "Littleroot soon.\p"
-	.string "I've caught a decent group of Pokémon,\n"
-	.string "and my Pokédex is coming along, so\l"
+	.string "MAY: I'm thinking of going back to\n"
+	.string "LITTLEROOT soon.\p"
+	.string "I've caught a decent group of POKéMON,\n"
+	.string "and my POKéDEX is coming along, so\l"
 	.string "I'm going home to show my dad.$"
 
 LilycoveCity_Text_1E3398: @ 81E3398
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the Gym Badges and take\n"
-	.string "the Pokémon League challenge?\p"
-	.string "Well, while you're collecting Badges,\n"
+	.string "Collect all the GYM BADGES and take\n"
+	.string "the POKéMON LEAGUE challenge?\p"
+	.string "Well, while you're collecting BADGES,\n"
 	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "Pokédex. I'll complete it before you!\p"
+	.string "POKéDEX. I'll complete it before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_1E346D: @ 81E346D
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the Pokémon League\n"
+	.string "Are you taking the POKéMON LEAGUE\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
+	.string "POKéDEX?\p"
 	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my Pokédex before you!\p"
+	.string "but I'll finish my POKéDEX before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_1E353A: @ 81E353A
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the Battle Frontier\n"
+	.string "Are you taking the BATTLE FRONTIER\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
+	.string "POKéDEX?\p"
 	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my Pokédex before you!\p"
+	.string "but I'll finish my POKéDEX before you!\p"
 	.string "See you!$"
 
 LilycoveCity_Text_1E3608: @ 81E3608
-	.string "Brendan: Oh, hey, it's {PLAYER}.\p"
+	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
 	.string "I'm running an errand for my dad.\n"
-	.string "No, I'm not buying any Dolls.\p"
+	.string "No, I'm not buying any DOLLS.\p"
 	.string "Anyways, it's been a while.\p"
 	.string "Want to have a battle to see who's been\n"
-	.string "raising Pokémon better?$"
+	.string "raising POKéMON better?$"
 
 LilycoveCity_Text_1E36BF: @ 81E36BF
-	.string "Brendan: Oh, what's the matter?\n"
+	.string "BRENDAN: Oh, what's the matter?\n"
 	.string "Don't have the confidence?$"
 
 LilycoveCity_Text_1E36FA: @ 81E36FA
-	.string "Brendan: Want to battle to see who's\n"
-	.string "been raising Pokémon better?$"
+	.string "BRENDAN: Want to battle to see who's\n"
+	.string "been raising POKéMON better?$"
 
 LilycoveCity_Text_1E373C: @ 81E373C
-	.string "Brendan: Aww, but you know I'm not\n"
+	.string "BRENDAN: Aww, but you know I'm not\n"
 	.string "going to lose to no {PLAYER}.$"
 
 LilycoveCity_Text_1E3777: @ 81E3777
 	.string "Humph…\n"
 	.string "You've done a lot of raising.\p"
 	.string "That stings a bit--I had a head start\n"
-	.string "on you as a Trainer…$"
+	.string "on you as a TRAINER…$"
 
 LilycoveCity_Text_1E37D7: @ 81E37D7
-	.string "Brendan: I…\n"
-	.string "I plan on going home to Littleroot.\p"
+	.string "BRENDAN: I…\n"
+	.string "I plan on going home to LITTLEROOT.\p"
 	.string "You know I'm helping out my dad on his\n"
-	.string "Pokédex. It's coming together pretty\l"
+	.string "POKéDEX. It's coming together pretty\l"
 	.string "decently, so I should go show him.$"
 
 LilycoveCity_Text_1E3876: @ 81E3876
 	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the Gym Badges and take\n"
-	.string "the Pokémon League challenge?\p"
+	.string "Collect all the GYM BADGES and take\n"
+	.string "the POKéMON LEAGUE challenge?\p"
 	.string "Maybe I'll do that, too…\p"
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_1E390C: @ 81E390C
 	.string "{PLAYER}, what are you going to do?\p"
 	.string "Since you're that strong, are you\n"
-	.string "taking the Pokémon League challenge?\p"
-	.string "Heh, even me--if I trained my Pokémon\n"
+	.string "taking the POKéMON LEAGUE challenge?\p"
+	.string "Heh, even me--if I trained my POKéMON\n"
 	.string "a bit more, I should be stronger than\l"
 	.string "you, {PLAYER}.\p"
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_1E39E3: @ 81E39E3
 	.string "{PLAYER}, what are you going to do?\p"
-	.string "Are you taking the Battle Frontier\n"
+	.string "Are you taking the BATTLE FRONTIER\n"
 	.string "challenge?\p"
 	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
+	.string "POKéDEX?\p"
 	.string "Since you're that strong, you should\n"
-	.string "consider the Battle Frontier.\p"
-	.string "Heh, if I train my Pokémon a bit more,\n"
+	.string "consider the BATTLE FRONTIER.\p"
+	.string "Heh, if I train my POKéMON a bit more,\n"
 	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the Battle\n"
-	.string "Frontier.\p"
+	.string "Maybe I should go to the BATTLE\n"
+	.string "FRONTIER.\p"
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_1E3B2C: @ 81E3B2C
 	.string "Fufufu…\p"
 	.string "We moved more loot into our secret\n"
-	.string "Hideout today…\p"
+	.string "HIDEOUT today…\p"
 	.string "Wh-who are you?!\n"
 	.string "I was just talking to myself!$"
 
 LilycoveCity_Text_1E3B95: @ 81E3B95
-	.string "I'm just a Grunt, so I don't know what\n"
-	.string "the Boss is thinking…\p"
-	.string "But being on Team Aqua, I know I'll get\n"
+	.string "I'm just a GRUNT, so I don't know what\n"
+	.string "the BOSS is thinking…\p"
+	.string "But being on TEAM AQUA, I know I'll get\n"
 	.string "the chance to do big things!\p"
 	.string "Wh-who are you?!\n"
 	.string "I was just talking to myself!$"
@@ -576,11 +576,11 @@ LilycoveCity_Text_1E3C46: @ 81E3C46
 
 LilycoveCity_Text_1E3CBE: @ 81E3CBE
 	.string "If this whole wide world becomes ours,\n"
-	.string "Team Aqua's, it will be a happier\l"
-	.string "place for Pokémon, too.$"
+	.string "TEAM AQUA's, it will be a happier\l"
+	.string "place for POKéMON, too.$"
 
 LilycoveCity_Text_1E3D1F: @ 81E3D1F
-	.string "There! Wailmer!\n"
+	.string "There! WAILMER!\n"
 	.string "Leap out of the water now!$"
 
 LilycoveCity_Text_1E3D4A: @ 81E3D4A
@@ -589,9 +589,9 @@ LilycoveCity_Text_1E3D4A: @ 81E3D4A
 	.string "so can you, like, get lost?$"
 
 LilycoveCity_Text_1E3D9E: @ 81E3D9E
-	.string "There's a Pokémon Contest Hall\n"
+	.string "There's a POKéMON CONTEST HALL\n"
 	.string "right in this here town. \p"
-	.string "That means well-raised Pokémon will\n"
+	.string "That means well-raised POKéMON will\n"
 	.string "come from all over the country.\p"
 	.string "My heart swells with excitement!$"
 
@@ -600,48 +600,48 @@ LilycoveCity_Text_1E3E3C: @ 81E3E3C
 	.string "the cove at the edge of town?$"
 
 LilycoveCity_Text_1E3E7D: @ 81E3E7D
-	.string "I'm going to teach my Pokémon some new\n"
-	.string "moves for entering a Contest.\p"
-	.string "So, I'm going to see the Move Deleter\n"
+	.string "I'm going to teach my POKéMON some new\n"
+	.string "moves for entering a CONTEST.\p"
+	.string "So, I'm going to see the MOVE DELETER\n"
 	.string "and make it forget HM moves.$"
 
 LilycoveCity_Text_1E3F05: @ 81E3F05
-	.string "I came from Kanto.\p"
-	.string "The Hoenn region is beautiful with\n"
+	.string "I came from KANTO.\p"
+	.string "The HOENN region is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare Pokémon that live\n"
+	.string "Could there be rare POKéMON that live\n"
 	.string "only in this area?$"
 
 LilycoveCity_Text_1E3FAB: @ 81E3FAB
-	.string "Team Aqua's been training their\n"
-	.string "Wailmer in the cove.\p"
-	.string "We Sailors can't get our boats out\n"
+	.string "TEAM AQUA's been training their\n"
+	.string "WAILMER in the cove.\p"
+	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_1E4020: @ 81E4020
 	.string "Ahoy, did you know?\p"
-	.string "Someone punted Team Aqua out of\n"
+	.string "Someone punted TEAM AQUA out of\n"
 	.string "the way for us!\p"
-	.string "That got the Wailmer out of the cove,\n"
+	.string "That got the WAILMER out of the cove,\n"
 	.string "so we can get our boats out again.$"
 
 LilycoveCity_Text_1E40AD: @ 81E40AD
 	.string "I was taking a relaxing snooze at the\n"
 	.string "seaside inn to the sound of waves…\p"
-	.string "When someone stole my Pokémon!\p"
+	.string "When someone stole my POKéMON!\p"
 	.string "Who's the abductor?\n"
-	.string "Team Aqua? Is it Team Aqua?$"
+	.string "TEAM AQUA? Is it TEAM AQUA?$"
 
 LilycoveCity_Text_1E4145: @ 81E4145
-	.string "My missing Pokémon…\n"
+	.string "My missing POKéMON…\n"
 	.string "It came back without me noticing!$"
 
 LilycoveCity_Text_1E417B: @ 81E417B
-	.string "I'm an Art Dealer.\p"
+	.string "I'm an ART DEALER.\p"
 	.string "I am a buyer and seller of fine art,\n"
 	.string "especially paintings.\p"
-	.string "I've heard that the Museum here has\n"
+	.string "I've heard that the MUSEUM here has\n"
 	.string "magnificent works on exhibit…$"
 
 LilycoveCity_Text_1E420B: @ 81E420B
@@ -660,10 +660,10 @@ LilycoveCity_Text_1E42FC: @ 81E42FC
 	.string "Hm, you know of the peculiar cavern\n"
 	.string "in this cove?\p"
 	.string "That had been a natural formation,\n"
-	.string "but then that Team Aqua lot came\l"
+	.string "but then that TEAM AQUA lot came\l"
 	.string "along and made their renovations.\p"
 	.string "They call themselves\n"
-	.string "the “nature-loving Team Aqua”!\p"
+	.string "the “nature-loving TEAM AQUA”!\p"
 	.string "But what they do and what they say\n"
 	.string "don't match at all!$"
 
@@ -671,99 +671,99 @@ LilycoveCity_Text_1E43FF: @ 81E43FF
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
-	.string "That Team Aqua lot, they must\n"
+	.string "That TEAM AQUA lot, they must\n"
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_1E448B: @ 81E448B
-	.string "Lilycove City\p"
+	.string "LILYCOVE CITY\p"
 	.string "“Where the land ends and the\n"
 	.string "sea begins.”$"
 
 LilycoveCity_Text_1E44C3: @ 81E44C3
-	.string "Pokémon Contest Hall\n"
-	.string "“The gathering place for Trainers!”$"
+	.string "POKéMON CONTEST HALL\n"
+	.string "“The gathering place for TRAINERS!”$"
 
 LilycoveCity_Text_1E44FC: @ 81E44FC
-	.string "Cove Lily Motel\p"
-	.string "“Remember us as Cove Lily of\n"
-	.string "Lilycove.”$"
+	.string "COVE LILY MOTEL\p"
+	.string "“Remember us as COVE LILY of\n"
+	.string "LILYCOVE.”$"
 
 LilycoveCity_Text_1E4534: @ 81E4534
-	.string "Lilycove Museum\p"
-	.string "“Pokémon Masterpiece Collection\n"
+	.string "LILYCOVE MUSEUM\p"
+	.string "“POKéMON Masterpiece Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_1E4571: @ 81E4571
-	.string "Lilycove Museum\p"
-	.string "“{PLAYER}'s Pokémon Collection\n"
+	.string "LILYCOVE MUSEUM\p"
+	.string "“{PLAYER}'s POKéMON Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_1E45A7: @ 81E45A7
-	.string "Lilycove City Harbor\p"
-	.string "“The ferry S.S. Tidal is under\n"
-	.string "construction in Slateport City.\p"
+	.string "LILYCOVE CITY HARBOR\p"
+	.string "“The ferry S.S. TIDAL is under\n"
+	.string "construction in SLATEPORT CITY.\p"
 	.string "“Service is scheduled to begin\n"
 	.string "shortly.”$"
 
 LilycoveCity_Text_1E4624: @ 81E4624
-	.string "Lilycove City Harbor\p"
+	.string "LILYCOVE CITY HARBOR\p"
 	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. Tidal.”$"
+	.string "the ferry S.S. TIDAL.”$"
 
 LilycoveCity_Text_1E466E: @ 81E466E
-	.string "Pokémon Trainer Fan Club\p"
-	.string "The names of Trainers are scribbled\n"
+	.string "POKéMON TRAINER FAN CLUB\p"
+	.string "The names of TRAINERS are scribbled\n"
 	.string "all over the sign…$"
 
 LilycoveCity_Text_1E46BE: @ 81E46BE
-	.string "Lilycove Department Store\p"
+	.string "LILYCOVE DEPARTMENT STORE\p"
 	.string "“Overflowing with great merchandise\n"
 	.string "and excitement!\p"
 	.string "“A great place to find that something\n"
 	.string "you need!”$"
 
 LilycoveCity_Text_1E473D: @ 81E473D
-	.string "Move Deleter's House\p"
-	.string "“Unwanted Pokémon moves deleted.”$"
+	.string "MOVE DELETER'S HOUSE\p"
+	.string "“Unwanted POKéMON moves deleted.”$"
 
 LilycoveCity_Text_1E4774: @ 81E4774
 	.string "Do you know about the machine\n"
-	.string "Berry Blender?$"
+	.string "BERRY BLENDER?$"
 
 LilycoveCity_Text_1E47A1: @ 81E47A1
 	.string "People have to work together to get it\n"
 	.string "to spin faster.\p"
 	.string "The faster you can make it spin, the\n"
-	.string "better {POKEBLOCK}s you can get, I've heard.$"
+	.string "better {POKEBLOCK}S you can get, I've heard.$"
 
 LilycoveCity_Text_1E4824: @ 81E4824
 	.string "It's used for making a kind of candy\n"
 	.string "called a {POKEBLOCK}.\p"
-	.string "If you give a good {POKEBLOCK} to a Pokémon,\n"
+	.string "If you give a good {POKEBLOCK} to a POKéMON,\n"
 	.string "its condition will improve by a lot.$"
 
 LilycoveCity_Text_1E48A5: @ 81E48A5
 	.string "I heard there's a tower somewhere out\n"
 	.string "on the sea routes.\p"
-	.string "It's called the Sky Pillar, I hear.$"
+	.string "It's called the SKY PILLAR, I hear.$"
 
 LilycoveCity_Text_1E4902: @ 81E4902
 	.string "I saw this tall tower somewhere\n"
-	.string "around Route 131.\p"
+	.string "around ROUTE 131.\p"
 	.string "Could that possibly be…?$"
 
 LilycoveCity_Text_1E494D: @ 81E494D
 	.string "We just arrived here on our\n"
 	.string "honeymoon vacation.\p"
-	.string "We happened to see a Dragon-type\n"
-	.string "Pokémon flying way up in the sky.\p"
-	.string "Do cool Pokémon like that live in\n"
-	.string "the Hoenn region?$"
+	.string "We happened to see a DRAGON-type\n"
+	.string "POKéMON flying way up in the sky.\p"
+	.string "Do cool POKéMON like that live in\n"
+	.string "the HOENN region?$"
 
 LilycoveCity_Text_1E49F4: @ 81E49F4
 	.string "On our honeymoon, we vowed to see as\n"
-	.string "many rare Pokémon as we can.\p"
+	.string "many rare POKéMON as we can.\p"
 	.string "So we were delighted to see a rare\n"
-	.string "Pokémon as soon as we arrived.\p"
+	.string "POKéMON as soon as we arrived.\p"
 	.string "I mean, we are totally happy!$"
 

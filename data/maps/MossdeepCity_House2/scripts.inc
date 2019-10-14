@@ -54,17 +54,17 @@ MossdeepCity_House2_Movement_222141: @ 8222141
 	step_end
 
 MossdeepCity_House2_Text_222146: @ 8222146
-	.string "My little sister exchanges Mail with\n"
-	.string "her boyfriend in Fortree.\p"
+	.string "My little sister exchanges MAIL with\n"
+	.string "her boyfriend in FORTREE.\p"
 	.string "I don't envy her one bit at all.$"
 
 MossdeepCity_House2_Text_2221A6: @ 82221A6
 	.string "Even though I can't see my friend in\n"
-	.string "Fortree, my Pokémon carries Mail\l"
+	.string "FORTREE, my POKéMON carries MAIL\l"
 	.string "back and forth for us.\p"
 	.string "I'm not lonesome, even though we're\n"
 	.string "apart.$"
 
 MossdeepCity_House2_Text_22222E: @ 822222E
-	.string "Wingull: Pihyoh!$"
+	.string "WINGULL: Pihyoh!$"
 

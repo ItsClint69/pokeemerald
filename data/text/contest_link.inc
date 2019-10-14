@@ -25,7 +25,7 @@ gUnknown_0827E973:: @ 827E973
 	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E992:: @ 827E992
-	.string "The most impressive Pokémon:\n"
+	.string "The most impressive POKéMON:\n"
 	.string "{STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E9B9:: @ 827E9B9
@@ -33,4 +33,4 @@ gUnknown_0827E9B9:: @ 827E9B9
 
 gUnknown_0827E9CD:: @ 827E9CD
 	.string "A link TV program will not be made\n"
-	.string "because the Trainer lost.{PAUSE_UNTIL_PRESS}$"
+	.string "because the TRAINER lost.{PAUSE_UNTIL_PRESS}$"

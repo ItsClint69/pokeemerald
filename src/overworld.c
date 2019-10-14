@@ -85,9 +85,9 @@
 extern const u8 EventScript_WhiteOut[];
 extern const u8 EventScript_ResetMrBriney[];
 extern const u8 EventScript_DoLinkRoomExit[];
-extern const u8 CableClub_EventScript_TooBusyToNotice[];
-extern const u8 CableClub_EventScript_ReadTrainerCard[];
-extern const u8 CableClub_EventScript_ReadTrainerCardColored[];
+extern const u8 gEventScript_TradeRoom_TooBusyToNotice[];
+extern const u8 gEventScript_TradeRoom_ReadTrainerCard_NoColor[];
+extern const u8 gEventScript_TradeRoom_ReadTrainerCard_Normal[];
 extern const u8 EventScript_DoubleBattleColosseum_PlayerSpot0[];
 extern const u8 EventScript_DoubleBattleColosseum_PlayerSpot1[];
 extern const u8 EventScript_DoubleBattleColosseum_PlayerSpot2[];
@@ -2765,13 +2765,13 @@ static const u8 *TryInteractWithPlayer(struct TradeRoomPlayer *player)
     if (linkPlayerId != 4)
     {
         if (!player->isLocalPlayer)
-            return CableClub_EventScript_TooBusyToNotice;
+            return gEventScript_TradeRoom_TooBusyToNotice;
         else if (sPlayerTradingStates[linkPlayerId] != PLAYER_TRADING_STATE_IDLE)
-            return CableClub_EventScript_TooBusyToNotice;
+            return gEventScript_TradeRoom_TooBusyToNotice;
         else if (!GetLinkTrainerCardColor(linkPlayerId))
-            return CableClub_EventScript_ReadTrainerCard;
+            return gEventScript_TradeRoom_ReadTrainerCard_NoColor;
         else
-            return CableClub_EventScript_ReadTrainerCardColored;
+            return gEventScript_TradeRoom_ReadTrainerCard_Normal;
     }
 
     return GetInteractedLinkPlayerScript(&otherPlayerPos, player->field_C, player->facing);

@@ -64,7 +64,7 @@ VerdanturfTown_EventScript_1EB5F4:: @ 81EB5F4
 VerdanturfTown_Text_1EB5FD: @ 81EB5FD
 	.string "My papa told me.\p"
 	.string "He says this tunnel is full of\n"
-	.string "timid Pokémon.\p"
+	.string "timid POKéMON.\p"
 	.string "They get all scared of loud noise and\n"
 	.string "make a big uproar.\p"
 	.string "So they had to stop the big tunnel\n"
@@ -85,41 +85,41 @@ VerdanturfTown_Text_1EB736: @ 81EB736
 	.string "frail and sickly people.$"
 
 VerdanturfTown_Text_1EB7E2: @ 81EB7E2
-	.string "My Pokémon and I, we've been riding\n"
+	.string "My POKéMON and I, we've been riding\n"
 	.string "a hot winning streak.\p"
-	.string "So I decided to make my Battle Tent\n"
+	.string "So I decided to make my BATTLE TENT\n"
 	.string "debut in this town.$"
 
 VerdanturfTown_Text_1EB854: @ 81EB854
 	.string "Did you see the cave next to the\n"
-	.string "Pokémon Mart?\p"
+	.string "POKéMON MART?\p"
 	.string "There's a guy in there who's trying to\n"
 	.string "bust up boulders so he can bust out\l"
 	.string "through to the other side.\p"
 	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit Rustboro.$"
+	.string "It'll make it easy to visit RUSTBORO.$"
 
 VerdanturfTown_Text_1EB935: @ 81EB935
-	.string "That cave next to the Pokémon Mart\n"
+	.string "That cave next to the POKéMON MART\n"
 	.string "is now a tunnel to the other side.\p"
 	.string "It's great--it's easy to go shop for\n"
-	.string "new Devon products in Rustboro now.$"
+	.string "new DEVON products in RUSTBORO now.$"
 
 VerdanturfTown_Text_1EB9C4: @ 81EB9C4
-	.string "Verdanturf Town\p"
+	.string "VERDANTURF TOWN\p"
 	.string "“The windswept highlands with the\n"
 	.string "sweet fragrance of grass.”$"
 
 VerdanturfTown_Text_1EBA11: @ 81EBA11
-	.string "Wanda's House$"
+	.string "WANDA'S HOUSE$"
 
 VerdanturfTown_Text_1EBA1F: @ 81EBA1F
-	.string "Battle Tent Verdanturf Site\n"
+	.string "BATTLE TENT VERDANTURF SITE\n"
 	.string "“Feast Your Eyes on Battles!”$"
 
 VerdanturfTown_Text_1EBA59: @ 81EBA59
-	.string "Rusturf Tunnel\n"
-	.string "“Linking Rustboro and Verdanturf\p"
+	.string "RUSTURF TUNNEL\n"
+	.string "“Linking RUSTBORO and VERDANTURF\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 

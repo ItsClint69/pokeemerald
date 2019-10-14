@@ -146,133 +146,133 @@ gBattleDomeOpponentStyleTextUnused4::
 	.string "This is sample message 4.$"
 
 gBattleDomeOpponentStatsText1::
-	.string "Emphasizes HP and Attack.$"
+	.string "Emphasizes HP and ATTACK.$"
 
 gBattleDomeOpponentStatsText2::
-	.string "Emphasizes HP and Defense.$"
+	.string "Emphasizes HP and DEFENSE.$"
 
 gBattleDomeOpponentStatsText3::
-	.string "Emphasizes HP and Speed.$"
+	.string "Emphasizes HP and SPEED.$"
 
 gBattleDomeOpponentStatsText4::
-	.string "Emphasizes HP and Sp. Attack.$"
+	.string "Emphasizes HP and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText5::
-	.string "Emphasizes HP and Sp. Defense.$"
+	.string "Emphasizes HP and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText6::
-	.string "Emphasizes Attack and Defense.$"
+	.string "Emphasizes ATTACK and DEFENSE.$"
 
 gBattleDomeOpponentStatsText7::
-	.string "Emphasizes Attack and Speed.$"
+	.string "Emphasizes ATTACK and SPEED.$"
 
 gBattleDomeOpponentStatsText8::
-	.string "Emphasizes Attack and Sp. Attack.$"
+	.string "Emphasizes ATTACK and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText9::
-	.string "Emphasizes Attack and Sp. Defense.$"
+	.string "Emphasizes ATTACK and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText10::
-	.string "Emphasizes Defense and Speed.$"
+	.string "Emphasizes DEFENSE and SPEED.$"
 
 gBattleDomeOpponentStatsText11::
-	.string "Emphasizes Defense and Sp. Attack.$"
+	.string "Emphasizes DEFENSE and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText12::
-	.string "Emphasizes Defense and Sp. Defense.$"
+	.string "Emphasizes DEFENSE and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText13::
-	.string "Emphasizes Speed and Sp. Attack.$"
+	.string "Emphasizes SPEED and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText14::
-	.string "Emphasizes Speed and Sp. Defense.$"
+	.string "Emphasizes SPEED and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText15::
-	.string "Emphasizes Sp. Attack and Sp. Defense.$"
+	.string "Emphasizes SP. ATTACK and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText16::
 	.string "Emphasizes HP.$"
 
 gBattleDomeOpponentStatsText17::
-	.string "Emphasizes Attack.$"
+	.string "Emphasizes ATTACK.$"
 
 gBattleDomeOpponentStatsText18::
-	.string "Emphasizes Defense.$"
+	.string "Emphasizes DEFENSE.$"
 
 gBattleDomeOpponentStatsText19::
-	.string "Emphasizes Speed.$"
+	.string "Emphasizes SPEED.$"
 
 gBattleDomeOpponentStatsText20::
-	.string "Emphasizes Sp. Attack.$"
+	.string "Emphasizes SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText21::
-	.string "Emphasizes Sp. Defense.$"
+	.string "Emphasizes SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText22::
-	.string "Neglects HP and Attack.$"
+	.string "Neglects HP and ATTACK.$"
 
 gBattleDomeOpponentStatsText23::
-	.string "Neglects HP and Defense.$"
+	.string "Neglects HP and DEFENSE.$"
 
 gBattleDomeOpponentStatsText24::
-	.string "Neglects HP and Speed.$"
+	.string "Neglects HP and SPEED.$"
 
 gBattleDomeOpponentStatsText25::
-	.string "Neglects HP and Sp. Attack.$"
+	.string "Neglects HP and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText26::
-	.string "Neglects HP and Sp. Defense.$"
+	.string "Neglects HP and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText27::
-	.string "Neglects Attack and Defense.$"
+	.string "Neglects ATTACK and DEFENSE.$"
 
 gBattleDomeOpponentStatsText28::
-	.string "Neglects Attack and Speed.$"
+	.string "Neglects ATTACK and SPEED.$"
 
 gBattleDomeOpponentStatsText29::
-	.string "Neglects Attack and Sp. Attack.$"
+	.string "Neglects ATTACK and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText30::
-	.string "Neglects Attack and Sp. Defense.$"
+	.string "Neglects ATTACK and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText31::
-	.string "Neglects Defense and Speed.$"
+	.string "Neglects DEFENSE and SPEED.$"
 
 gBattleDomeOpponentStatsText32::
-	.string "Neglects Defense and Sp. Attack.$"
+	.string "Neglects DEFENSE and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText33::
-	.string "Neglects Defense and Sp. Defense.$"
+	.string "Neglects DEFENSE and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText34::
-	.string "Neglects Speed and Sp. Attack.$"
+	.string "Neglects SPEED and SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText35::
-	.string "Neglects Speed and Sp. Defense.$"
+	.string "Neglects SPEED and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText36::
-	.string "Neglects Sp. Attack and Sp. Defense.$"
+	.string "Neglects SP. ATTACK and SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText37::
 	.string "Neglects HP.$"
 
 gBattleDomeOpponentStatsText38::
-	.string "Neglects Attack.$"
+	.string "Neglects ATTACK.$"
 
 gBattleDomeOpponentStatsText39::
-	.string "Neglects Defense.$"
+	.string "Neglects DEFENSE.$"
 
 gBattleDomeOpponentStatsText40::
-	.string "Neglects Speed.$"
+	.string "Neglects SPEED.$"
 
 gBattleDomeOpponentStatsText41::
-	.string "Neglects Sp. Attack.$"
+	.string "Neglects SP. ATTACK.$"
 
 gBattleDomeOpponentStatsText42::
-	.string "Neglects Sp. Defense.$"
+	.string "Neglects SP. DEFENSE.$"
 
 gBattleDomeOpponentStatsText43::
-	.string "Raises Pokémon in a well-balanced way.$"
+	.string "Raises POKéMON in a well-balanced way.$"
 
 gBattleDomeWinText1::
 	.string "Let the battle begin!$"
