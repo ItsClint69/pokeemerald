@@ -3,10 +3,15 @@ This branch is my currently untitled pokeemerald project, which may or may not t
 
 # Thanks to
 pret, for being amazing
+
 Pidgey, from the pret discord, for helping me with initial merge conflicts and general questions about pret
+
 DizzyEggg, for his source item_expansion, pokemon_expansion and battle_engine_v2 branches
+
 AsparagusEduardo, for the decap
+
 LOuroboros, for many snippets of code (bw repels, poison fade etc)
+
 
 Legacy readme follows.
 
