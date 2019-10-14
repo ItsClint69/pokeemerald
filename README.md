@@ -1,11 +1,16 @@
 # About this branch
-This is a decapitalized (all-caps text replaced with proper capitalization) version of the [**pokeemerald**](https://travis-ci.org/pret/pokeemerald) dissasembly, originally made by [**Wyrserth**](https://github.com/Wyrserth) and adapted to the current structure of the project.
+This branch is my currently untitled pokeemerald project, which may or may not turn into a full game sometime in the future.
 
-As the disassembly continues to develop, I'll try to keep up this branch as updated as possible.
+# Thanks to
+pret, for being amazing
+Pidgey, from the pret discord, for helping me with initial merge conflicts and general questions about pret
+DizzyEggg, for his source item_expansion, pokemon_expansion and battle_engine_v2 branches
+AsparagusEduardo, for the decap
+LOuroboros, for many snippets of code (bw repels, poison fade etc)
 
-It builds the following ROM:
+Legacy readme follows.
 
-* pokeemerald.gba `sha1: a6d33bdf3356607f17beff442deed29e6a4b3fb3`
+## Setting up
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
