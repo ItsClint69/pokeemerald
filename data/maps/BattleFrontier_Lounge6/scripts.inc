@@ -5,7 +5,7 @@ BattleFrontier_Lounge6_EventScript_264FED:: @ 8264FED
 	lock
 	faceplayer
 	goto_if_set FLAG_BATTLE_FRONTIER_TRADE_DONE, BattleFrontier_Lounge6_EventScript_265083
-	setvar VAR_0x8008, 3
+	setvar VAR_0x8008, INGAME_TRADE_MEOWTH
 	copyvar VAR_0x8004, VAR_0x8008
 	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
 	copyvar VAR_0x8009, VAR_RESULT
@@ -49,7 +49,7 @@ BattleFrontier_Lounge6_EventScript_265083:: @ 8265083
 	end
 
 BattleFrontier_Lounge6_Text_26508D: @ 826508D
-	.string "My POKéMON is a {STR_VAR_2}.\n"
+	.string "My Pokémon is a {STR_VAR_2}.\n"
 	.string "Do you know it?\l"
 	.string "It's quite cute and rather nice.\p"
 	.string "This little one, I could trade with\n"
@@ -76,5 +76,5 @@ BattleFrontier_Lounge6_Text_2651CB: @ 82651CB
 
 BattleFrontier_Lounge6_Text_26520E: @ 826520E
 	.string "Giggle!\n"
-	.string "A SKITTY is so much cuter than I had\l"
+	.string "A Skitty is so much cuter than I had\l"
 	.string "imagined. I'm delighted!$"

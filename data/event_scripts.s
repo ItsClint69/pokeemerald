@@ -3,6 +3,7 @@
 #include "constants/battle_frontier.h"
 #include "constants/battle_setup.h"
 #include "constants/berry.h"
+#include "constants/cable_club.h"
 #include "constants/contest.h"
 #include "constants/daycare.h"
 #include "constants/decorations.h"
@@ -27,6 +28,7 @@
 #include "constants/secret_bases.h"
 #include "constants/songs.h"
 #include "constants/species.h"
+#include "constants/trade.h"
 #include "constants/trainer_hill.h"
 #include "constants/trainers.h"
 #include "constants/vars.h"
@@ -1381,11 +1383,11 @@ gText_PlayerFoundOneItem:: @ 8272ABF
 
 gText_TooBadBagIsFull:: @ 8272AD0
 	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "The Bag is full…$"
 
 gText_PlayerPutItemInBag:: @ 8272AEA
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the BAG.$"
+	.string "in the Bag.$"
 
 gText_ObtainedTheMon:: @ 8272B09
 	.string "Obtained the {STR_VAR_2}!$"
@@ -1400,11 +1402,11 @@ gText_TheMonWasTransferredToThePC:: @ 8272B48
 
 gText_PokemartSign:: @ 8272B6A
 	.string "“Selected items for your convenience!”\n"
-	.string "POKéMON MART$"
+	.string "Pokémon Mart$"
 
 gText_PokemonCenterSign:: @ 8272B9E
 	.string "“Rejuvenate your tired partners!”\n"
-	.string "POKéMON CENTER$"
+	.string "Pokémon Center$"
 
 gText_MomOrDadMightLikeThisProgram:: @ 8272BCF
 	.string "{STR_VAR_1} might like this program.\n"
@@ -1412,7 +1414,7 @@ gText_MomOrDadMightLikeThisProgram:: @ 8272BCF
 	.string "Better get going!$"
 
 gText_WhichFloorWouldYouLike:: @ 8272C1D
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
+	.string "Welcome to Lilycove Department Store.\p"
 	.string "Which floor would you like?$"
 
 gText_SandstormIsVicious:: @ 8272C5F
@@ -1420,16 +1422,16 @@ gText_SandstormIsVicious:: @ 8272C5F
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem:: @ 8272C98
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "An item in the Bag can be\n"
+	.string "registered to Select for easy use.$"
 
 gText_PokemonTrainerSchoolEmail:: @ 8272CD5
-	.string "There's an e-mail from POKéMON TRAINER\n"
-	.string "SCHOOL.\p"
+	.string "There's an e-mail from Pokémon Trainer\n"
+	.string "School.\p"
 	.string "… … … … … …\p"
-	.string "A POKéMON may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
-	.string "move sets chosen for POKéMON.\p"
+	.string "A Pokémon may learn up to four moves.\p"
+	.string "A Trainer's expertise is tested on the\n"
+	.string "move sets chosen for Pokémon.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC:: @ 8272D87
@@ -1444,28 +1446,28 @@ gText_UnusedNicknameReceivedPokemon:: @ 8272DB3
 
 gText_PlayerWhitedOut:: @ 8272DE3
 	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "Pokémon!\p{PLAYER} whited out!$"
 
 gText_RegisteredTrainerinPokeNav:: @ 8272E0F
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 gText_ComeBackWithSecretPower:: @ 8272E30
-	.string "Do you know the TM SECRET POWER?\p"
-	.string "Our group, we love the TM SECRET\n"
-	.string "POWER.\p"
+	.string "Do you know the TM Secret Power?\p"
+	.string "Our group, we love the TM Secret\n"
+	.string "Power.\p"
 	.string "One of our members will give it to you.\n"
 	.string "Come back and show me if you get it.\p"
 	.string "We'll accept you as a member and sell\n"
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation:: @ 8272F07
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
+	.string "Your Pokémon may be infected with\n"
+	.string "Pokérus.\p"
+	.string "Little is known about the Pokérus\n"
 	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
+	.string "forms that attach to Pokémon.\p"
+	.string "While infected, Pokémon are said to\n"
 	.string "grow exceptionally well.$"
 
 	.include "data/text/surf.inc"
@@ -1479,7 +1481,7 @@ gText_BigHoleInTheWall:: @ 827304E
 
 gText_SorryWirelessClubAdjustments:: @ 827306F
 	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
+	.string "The Pokémon Wireless Club is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments:: @ 82730BC
@@ -1488,12 +1490,12 @@ gText_UndergoingAdjustments:: @ 82730BC
 
 @ Unused
 gText_SorryTradeCenterInspections:: @ 82730E5
-	.string "I'm terribly sorry. The TRADE CENTER\n"
+	.string "I'm terribly sorry. The Trade Center\n"
 	.string "is undergoing inspections.$"
 
 @ Unused
 gText_SorryRecordCornerPreparation:: @ 8273125
-	.string "I'm terribly sorry. The RECORD CORNER\n"
+	.string "I'm terribly sorry. The Record Corner\n"
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem:: @ 8273161
@@ -1502,7 +1504,7 @@ gText_PlayerHandedOverTheItem:: @ 8273161
 
 gText_ThankYouForAccessingMysteryGift:: @ 8273178
 	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "Mystery Gift System.$"
 
 gText_PlayerFoundOneItemTwoLines:: @ 82731A9
 	.string "{PLAYER} found one {STR_VAR_1}\n"
@@ -1510,7 +1512,7 @@ gText_PlayerFoundOneItemTwoLines:: @ 82731A9
 
 gText_Sudowoodo_Attacked:: @ 82731BD
 	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
+	.string "Wailmer Pail!\p"
 	.string "The weird tree attacked!$"
 
 gText_LegendaryFlewAway:: @ 8273204
@@ -1518,30 +1520,30 @@ gText_LegendaryFlewAway:: @ 8273204
 
 gText_PkmnTransferredSomeonesPC:: @ 8273216
 	.string "{STR_VAR_2} was transferred to\n"
-	.string "SOMEONE'S PC.\p"
+	.string "Someone's PC.\p"
 	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "Box “{STR_VAR_1}.”$"
 
 gText_PkmnTransferredLanettesPC:: @ 8273256
-	.string "{STR_VAR_2} was transferred to\nLANETTE'S PC.\p"
+	.string "{STR_VAR_2} was transferred to\nLanette's PC.\p"
 	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "Box “{STR_VAR_1}.”$"
 
 gText_PkmnBoxSomeonesPCFull:: @ 8273296
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "SOMEONE'S PC was full.\p"
+	.string "Box “{STR_VAR_3}” on\n"
+	.string "Someone's PC was full.\p"
 	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "Box “{STR_VAR_1}.”$"
 
 gText_PkmnBoxLanettesPCFull:: @ 82732D9
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "LANETTE'S PC was full.\p"
+	.string "Box “{STR_VAR_3}” on\n"
+	.string "Lanette's PC was full.\p"
 	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "Box “{STR_VAR_1}.”$"
 
 gText_NoMoreRoomForPokemon:: @ 827331C
-	.string "There's no more room for POKéMON!\p"
-	.string "The POKéMON BOXES are full and\n"
+	.string "There's no more room for Pokémon!\p"
+	.string "The Pokémon Boxes are full and\n"
 	.string "can't accept any more!$"
 
 gText_NicknameThisPokemon:: @ 8273374
@@ -1569,64 +1571,16 @@ EventScript_CableClub_SetVarResult0:: @ 8273755
 	setvar VAR_RESULT, 0
 	return
 
-BattleFrontier_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-DewfordTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-EverGrandeCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-EverGrandeCity_PokemonLeague_2F_EventScript_27375B:: @ 827375B
-FallarborTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-FortreeCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-LavaridgeTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-LilycoveCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-MauvilleCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-MossdeepCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-OldaleTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-PacifidlogTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-PetalburgCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-RustboroCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-SlateportCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-SootopolisCity_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-VerdanturfTown_PokemonCenter_2F_EventScript_27375B:: @ 827375B
-	call OldaleTown_PokemonCenter_2F_EventScript_27751B
+Common_EventScript_UnionRoomAttendant:: @ 827375B
+	call CableClub_EventScript_UnionRoomAttendant
 	end
 
-BattleFrontier_PokemonCenter_2F_EventScript_273761:: @ 8273761
-DewfordTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-EverGrandeCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-EverGrandeCity_PokemonLeague_2F_EventScript_273761:: @ 8273761
-FallarborTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-FortreeCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-LavaridgeTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-LilycoveCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-MauvilleCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-MossdeepCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-OldaleTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-PacifidlogTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-PetalburgCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-RustboroCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-SlateportCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-SootopolisCity_PokemonCenter_2F_EventScript_273761:: @ 8273761
-VerdanturfTown_PokemonCenter_2F_EventScript_273761:: @ 8273761
-	call OldaleTown_PokemonCenter_2F_EventScript_277672
+Common_EventScript_WirelessClubAttendant:: @ 8273761
+	call CableClub_EventScript_WirelessClubAttendant
 	end
 
-BattleFrontier_PokemonCenter_2F_EventScript_273767:: @ 8273767
-DewfordTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-EverGrandeCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-EverGrandeCity_PokemonLeague_2F_EventScript_273767:: @ 8273767
-FallarborTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-FortreeCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-LavaridgeTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-LilycoveCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-MauvilleCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-MossdeepCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-OldaleTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-PacifidlogTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-PetalburgCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-RustboroCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-SlateportCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-SootopolisCity_PokemonCenter_2F_EventScript_273767:: @ 8273767
-VerdanturfTown_PokemonCenter_2F_EventScript_273767:: @ 8273767
-	call OldaleTown_PokemonCenter_2F_EventScript_2776A4
+Common_EventScript_DirectCornerAttendant:: @ 8273767
+	call CableClub_EventScript_DirectCornerAttendant
 	end
 
 Common_EventScript_RemoveStaticPokemon:: @ 827376D
@@ -1731,6 +1685,7 @@ EventScript_GotoTrainerScript:: @ 82742F6
 	.include "data/scripts/berry_tree.inc"
 	.include "data/scripts/secret_base.inc"
 	.include "data/scripts/cable_club.inc"
+	.include "data/text/cable_club.inc"
 	.include "data/scripts/contest_hall.inc"
 	.include "data/text/contest_strings.inc"
 	.include "data/text/contest_link.inc"

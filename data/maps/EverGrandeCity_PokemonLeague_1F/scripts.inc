@@ -1,6 +1,6 @@
 EverGrandeCity_PokemonLeague_1F_MapScripts:: @ 82295D2
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
-	map_script MAP_SCRIPT_ON_RESUME, EverGrandeCity_PokemonLeague_1F_MapScript1_277C30
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
 
 EverGrandeCity_PokemonLeague_1F_OnTransition: @ 82295DD
@@ -149,18 +149,18 @@ EverGrandeCity_PokemonLeague_1F_Movement_2296E5: @ 82296E5
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_2296E8: @ 82296E8
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
+	.string "Beyond this point, only those Trainers\n"
+	.string "who have collected all the Gym Badges\l"
 	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+	.string "Trainer, let us confirm that you have\n"
+	.string "all the Gym Badges.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_229787: @ 8229787
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "You haven't obtained all the Badges.\p"
+	.string "If you're bound for the Pokémon\n"
+	.string "League, you must return with them.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_2297EF: @ 82297EF
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+	.string "Trainer! Believe in yourself and your\n"
+	.string "Pokémon, and go forth!$"
 
